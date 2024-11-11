@@ -1,0 +1,127 @@
+Credits:
+
+Modernizr by Faruk Ates, Paul Irish, Alex Sexton, Ryan Seddon, Patrick Kettner, Stu Cox, Richard Herrera
+http://modernizr.com/download
+License: MIT & BSD
+
+--------------------
+
+Respond.js by Scott Jehl
+http://j.mp/respondjs
+License: MIT license
+
+--------------------
+
+Animenu by Catalin Rosu
+http://red-team-design.com/animenu-a-responsive-dropdown-navigation-made-with-sass/
+License: Public domain <http://unlicense.org/>
+
+--------------------
+
+slick by Ken Wheeler
+http://kenwheeler.github.io/slick/
+License: MIT license <https://github.com/kenwheeler/slick/blob/master/LICENSE>
+
+--------------------
+
+Simple Lightbox by André Rinas
+http://andreknieriem.de/simple-lightbox/
+License: MIT license
+
+--------------------
+
+matchHeight by @liabru
+http://brm.io/jquery-match-height/
+License: MIT license
+
+
+_/_/_/_/_/_/_/_/_/_/
+
+
+Photos of the sample content
+
+Unsplash | High-Resolution Photos
+https://unsplash.com/
+
+UNSPLASH LICENSE
+All photos published on Unsplash are licensed under Creative Commons Zero which means you can copy, modify, distribute and use the photos for free, including commercial purposes, without asking permission from or providing attribution to the photographer or Unsplash.
+https://unsplash.com/license
+
+
+https://unsplash.com/photos/Ad9QnJMscu4
+https://unsplash.com/photos/g1-N7rv720w
+https://unsplash.com/photos/upY7FPFfMNo
+https://unsplash.com/photos/GJogrGZxKJE
+https://unsplash.com/photos/4vr9a_sdJ78
+https://unsplash.com/photos/UvWlksgZGPE
+https://unsplash.com/photos/F2eHfMwIOxA
+https://unsplash.com/photos/a2f9J4U0444
+https://unsplash.com/photos/7lUDryZFbbE
+https://unsplash.com/photos/Au-LzDMd_Cw
+https://unsplash.com/photos/nTqbkNSxICw
+https://unsplash.com/photos/nvsHAsuFC54
+https://unsplash.com/photos/y_vCgwNEsWI
+https://unsplash.com/photos/4qJdtfJ2MmQ
+https://unsplash.com/photos/qpf2glK0bAA
+https://unsplash.com/photos/_7G_R_IWt1U
+https://unsplash.com/photos/6SHd7Q-l1UQ
+
+
+--------------------
+
+Free Stock Photos. No License Photos. HD Image Downloads alana.io | Create your Canvas
+http://alana.io/
+
+Photo License
+All photos on alana.io are Creative Commons Zero (CC0) license. This means you can copy, modify, distribute and perform the photos. The pictures are free for personal and even for commercial use. All without asking for permission or setting a link to the source. So that attribution is not required. All in all the photos are completely free to be used for any legal purpose.
+
+The CC0 license was released by the non-profit organization Creative Commons (CC). Get more information about the license on the official license page.
+http://alana.io/license/
+
+
+http://alana.io/downloads/local-restaurant-menu/
+http://alana.io/downloads/cupcakes-dessert-sweets/
+http://alana.io/downloads/sugar/
+http://alana.io/downloads/food-snickers/
+http://alana.io/downloads/chocolate-brownie-dessert/
+http://alana.io/downloads/cake-dessert-sweets/
+http://alana.io/downloads/food-163/
+http://alana.io/downloads/loaf-bread-baking/
+http://alana.io/downloads/cupcakes-dessert-icing/
+http://alana.io/downloads/baking-gingerbread-cookies/
+http://alana.io/downloads/bistro-restaurant-sidewalk/
+http://alana.io/downloads/loaf-bread-baking/
+http://alana.io/downloads/food-128/
+
+--------------------
+
+Free stock photos · Pexels
+https://www.pexels.com/
+
+Photo License
+It's hard to understand complex licenses that is why all photos on Pexels are licensed under the Creative Commons Zero (CC0) license. This means the pictures are completely free to be used for any legal purpose.
+
+The pictures are free for personal and even for commercial use.
+You can modify, copy and distribute the photos.
+All without asking for permission or setting a link to the source. So that attribution is not required.
+The CC0 license was released by the non-profit organization Creative Commons (CC). Get more information about the license on the official license page.
+https://www.pexels.com/photo-license/
+
+
+https://www.pexels.com/photo/food-table-dessert-cooking-90604/
+https://www.pexels.com/photo/making-gingerbread-cookies-6293/
+https://www.pexels.com/photo/christmas-christmas-tree-sweet-dessert-24013/
+https://www.pexels.com/photo/vintage-polka-dot-dress-pretty-young-woman-vintage-ice-cream-parlor-37647/
+https://www.pexels.com/photo/plate-meal-hot-chocolate-94439/
+https://www.pexels.com/photo/black-berries-with-sliced-fruits-on-white-plate-87583/
+https://www.pexels.com/photo/cake-desert-closeup-strawberries-9084/
+https://www.pexels.com/photo/restaurant-coffee-chocolate-dessert-2230/
+https://www.pexels.com/photo/food-coffee-cup-mug-8791/
+https://www.pexels.com/photo/food-office-sugar-sweet-33976/
+https://www.pexels.com/photo/food-8561/
+https://www.pexels.com/photo/tables-seats-chairs-restaureant-26981/
+https://www.pexels.com/photo/cake-raspberries-desert-sweet-36143/
+https://www.pexels.com/photo/food-lifestyle-yummy-europe-21269/
+https://www.pexels.com/photo/food-dessert-sweet-macaroons-6747/
+https://www.pexels.com/photo/chocolate-dessert-food-sweet-24178/
+https://www.pexels.com/photo/food-couple-sweet-married-2226/

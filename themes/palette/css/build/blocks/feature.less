@@ -1,0 +1,117 @@
+div.ccm-block-feature-item {
+	font-size: .9em;
+	font-size: .9rem;
+
+	i {
+		display: inline-block;
+		width: 34px;
+		height: 34px;
+		margin: 0 2px;
+		text-align: center;
+		background-color: @main-theme-color;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+		border-radius: 50%;
+		color: @body-text-white-color;
+		font-size: 18px;
+		line-height: 36px;
+	}
+
+	h4 {
+		color: @header-site-title-type-color;
+		font-size: 1.125em;
+		font-size: 1.125rem;
+		font-family: @font-family-title;
+
+		a {
+			color: @body-text-sub-color;
+		}
+
+	}
+
+	p {
+		margin-left: 0;
+		padding: 0 2px;
+	}
+
+}
+
+
+
+.ccm-block-feature-item-hover-wrapper {
+	margin: 20px auto 40px;
+	text-align: center;
+	font-size: 120%;
+
+	.ccm-block-feature-item-hover {
+		display: table;
+		margin: 0 auto;
+		cursor: help;
+
+		.ccm-block-feature-item-hover-icon {
+			display: table-cell;
+			width: 160px;
+			height: 160px;
+			margin: 0 auto;
+			text-align: center;
+			vertical-align: middle;
+			border: 4px solid @body-type-color;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				-ms-border-radius: 50%;
+			border-radius: 50%;
+				-webkit-transition: all .2s linear;
+				-o-transition: all .2s linear;
+			transition: all .2s linear;
+			background: @main-base-color;
+
+			i {
+				margin-top: 3px;
+				color: @body-type-color;
+				font-size: 1.875em;
+				font-size: 1.875rem;
+			}
+		}
+		&:hover {
+			.ccm-block-feature-item-hover-icon {
+				color: @body-text-white-color;
+				background: @page-background-color;
+
+				i {
+					margin-top: 3px;
+					color: @body-text-white-color;
+				}
+			}
+		}
+
+		@media (min-width: 768px) {
+			.ccm-block-feature-item-hover-icon {
+				width: 80px;
+				height: 80px;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.ccm-block-feature-item-hover-icon {
+				width: 110px;
+				height: 110px;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			.ccm-block-feature-item-hover-icon {
+				width: 134px;
+				height: 134px;
+			}
+		}
+	}
+
+	.ccm-block-feature-item-hover-title {
+		margin-top: 10px;
+		color: @body-type-color;
+		font-family: @font-family-title;
+		font-size: 1.125em;
+		font-size: 1.125rem;
+		font-weight: 300;
+	}
+}

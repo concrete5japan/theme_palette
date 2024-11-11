@@ -1,0 +1,280 @@
+div.ccm-page {
+	font-family: @body-type-font-family;
+	color: @body-type-color;
+    font-size: @body-type-font-size;
+	font-weight: @body-type-font-weight;
+    line-height: 1.8;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+	.main {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	@media (min-width: 768px) {
+		.main {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+	}
+
+	.main aside {
+		overflow: hidden;
+	}
+
+	main, footer {
+		a:not(.fa):not(.btn) {
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	blockquote {
+	    margin: 0 0 20px !important;
+	    padding: 10px 20px;
+	    padding-left: @blockquote-left-padding-size * 0.7;
+		color: @blockquote-type-color;
+		font-size: @blockquote-type-font-size;
+		font-weight: @blockquote-type-font-weight;
+	    border: none;
+	    position: relative;
+	    &:before {
+	    	width: 10px;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+
+			background: -webkit-gradient(linear, left top, right bottom, from(@blockquote-border-color), color-stop(0.25, @blockquote-border-color), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, @blockquote-border-color), color-stop(0.75, @blockquote-border-color), color-stop(0.75, transparent), to(transparent));
+			background: -moz-linear-gradient(-45deg, @blockquote-border-color 25%, transparent 25%, transparent 50%, @blockquote-border-color 50%, @blockquote-border-color 75%, transparent 75%, transparent);
+			background: linear-gradient(-45deg, @blockquote-border-color 25%, transparent 25%, transparent 50%, @blockquote-border-color 50%, @blockquote-border-color 75%, transparent 75%, transparent);
+			background-size: 4px 4px;
+
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+	    }
+	}
+
+	@media (min-width: 768px) {
+		blockquote {
+	    	padding-left: @blockquote-left-padding-size;
+	    }
+	}
+
+	@font-weight-100: 100;
+	@font-weight-200: 200;
+	@font-weight-300: 300;
+	@font-weight-400: 400;
+	@font-weight-500: 500;
+	@font-weight-600: 600;
+	@font-weight-700: 700;
+	@font-weight-800: 800;
+	@font-weight-900: 900;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		font-family: @headings-type-font-family;
+	}
+
+	h1, .h1 {
+		margin: 0 0 30px;
+		color: @h1-type-color;
+		font-size: @h1-type-font-size;
+		font-weight: @h1-type-font-weight;
+	}
+
+	h2, .h2 {
+		margin: 0 0 20px;
+		color: @h2-type-color;
+		font-size: @h2-type-font-size;
+		font-weight: @h2-type-font-weight;
+	}
+
+	h3, .h3 {
+		margin: 10px 0 10px;
+		color: @h3-type-color;
+		font-size: @h3-type-font-size;
+		font-weight: @h3-type-font-weight;
+	}
+
+	h4, .h4 {
+		margin: 0 0 20px;
+		color: @h4-type-color;
+		font-size: @h4-type-font-size;
+		font-weight: @h4-type-font-weight;
+	}
+
+	h5, .h5 {
+		margin: 0 0 20px;
+		padding-bottom: 5px;
+		color: @h5-type-color;
+		font-size: @h5-type-font-size;
+		font-weight: @h5-type-font-weight;
+	}
+
+	h6, .h6 {
+		margin: 0 0 20px;
+		color: @h6-type-color;
+		font-size: @h6-type-font-size;
+		font-weight: @h6-type-font-weight;
+	}
+
+	img {
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		width: auto\9;
+		height: auto;
+	}
+
+	a {
+		color: @body-link-color;
+		&:visited {
+
+		}
+		&:focus {
+			outline-offset: 2px;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			color: @body-link-hover-color;
+			text-decoration: none;
+		}
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 10px;
+		font-size: .9em;
+		font-size: .9rem;
+	}
+
+	div[data-container=block] {
+		div.container:last-child {
+			padding-bottom: 0px;
+	    }
+	}
+
+	&.page-type-blog-entry {
+		div.col-sidebar {
+			padding-top: 40px;
+		}
+	}
+
+	div.col-sidebar {
+		hr {
+			margin-top: 20px;
+			margin-bottom: 20px;
+	    }
+	}
+
+	hr {
+	    margin-top: 80px;
+	    margin-bottom: 80px;
+		border-top: solid 1px @main-border-color;
+
+		&.default {
+			&.dot {
+			    display: block;
+			    height: 1px;
+			    border: 0;
+			    border-top: dotted 1px @page-background-color;
+			    margin: 2em 0;
+			    padding: 0;
+			}
+		}
+
+		&.colored {
+		    display: block;
+		    margin: 0;
+		    padding: 30px 0 40px;
+		    border: 0;
+		    position: relative;
+			&:after {
+				width: 100%;
+				margin-bottom: 30px;
+				padding: 0;
+
+				background: -webkit-gradient(linear, left top, right bottom, from(@main-theme-color), color-stop(0.25, @main-theme-color), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, @main-theme-color), color-stop(0.75, @main-theme-color), color-stop(0.75, transparent), to(transparent));
+				background: -moz-linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background: linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background-size: 4px 4px;
+
+
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+		}
+
+		&.monochrome {
+		    display: block;
+		    margin: 0;
+		    padding: 30px 0 40px;
+		    border: 0;
+		    position: relative;
+			&:after {
+				width: 100%;
+				margin-bottom: 30px;
+				padding: 0;
+
+				background: -webkit-gradient(linear, left top, right bottom, from(@main-background-sub-color), color-stop(0.25, @main-background-sub-color), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, @main-background-sub-color), color-stop(0.75, @main-background-sub-color), color-stop(0.75, transparent), to(transparent));
+				background: -moz-linear-gradient(-45deg, @main-background-sub-color 25%, transparent 25%, transparent 50%, @main-background-sub-color 50%, @main-background-sub-color 75%, transparent 75%, transparent);
+				background: linear-gradient(-45deg, @main-background-sub-color 25%, transparent 25%, transparent 50%, @main-background-sub-color 50%, @main-background-sub-color 75%, transparent 75%, transparent);
+				background-size: 4px 4px;
+
+
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+		}
+
+		&.narrow {
+			&:after {
+				height: 8px;
+			}
+		}
+
+		&.wide {
+			&:after {
+				height: 15px;
+			}
+		}
+
+		@media (min-width: 768px) {
+			&.colored,
+			&.monochrome {
+			    padding: 80px 0;
+			    &:after {
+					margin-bottom: 80px;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 768px) {
+		hr {
+	    	margin-top: 80px;
+	    	margin-bottom: 80px;
+		}
+	}
+}

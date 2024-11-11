@@ -1,0 +1,61 @@
+
+div.ccm-block-tags-wrapper {
+	margin: 0 0 20px;
+
+	div.ccm-block-tags-header {
+		h5 {
+			margin: 0 0 15px;
+			padding: 0;
+			color: @header-site-title-type-color;
+			font-family: @font-family-title;
+			font-size: 1.1em;
+			font-size: 1.1rem;
+			position: relative;
+			&:after {
+				width: 100%;
+				height: 8px;
+				margin: 0;
+				padding: 0;
+				background: -webkit-gradient(linear, left top, right bottom, from(@main-theme-color), color-stop(0.25, @main-theme-color), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, @main-theme-color), color-stop(0.75, @main-theme-color), color-stop(0.75, transparent), to(transparent));
+				background: -moz-linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background: linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background-size: 4px 4px;
+				content: "";
+				position: absolute;
+				bottom: -10px;
+				left: 0;
+			}
+		}
+	}
+
+	a {
+
+	    &:hover,
+	    &:focus {
+			text-decoration: none;
+
+			.ccm-block-tags-tag {
+				background-color: @main-theme-color;
+			}
+		}
+
+
+		.ccm-block-tags-tag {
+			margin: 0;
+			padding: 3px 10px;
+			color: @body-text-white-color;
+			font-size: .9em;
+			font-size: .9rem;
+			background-color: lighten(@main-theme-color, 6%);
+			border-radius: 4px;
+				-moz-transition: all 0.2s linear;
+				-webkit-transition: all 0.2s linear;
+				-o-transition: all 0.2s linear;
+				-ms-transition: all 0.2s linear;
+
+			&.label {
+				font-weight: normal;
+			}
+		}
+	}
+}

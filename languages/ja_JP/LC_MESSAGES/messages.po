@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Stucco\n"
+"POT-Creation-Date: 2016-07-14 12:32+0900\n"
+"PO-Revision-Date: 2016-07-14 12:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: nipper.onside@gmail.com\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../controller.php:13 ../../../elements/dashboard/install.php:1
+msgid "Access Denied."
+msgstr "アクセスできません。"
+
+#: ../../../controller.php:25
+msgid "A simple style Shop's theme based on the Bootstrap framework."
+msgstr "ブートストラップを使用したショップ向けのシンプルなテーマ。"
+
+#: ../../../controller.php:30 ../../../themes/palette/page_theme.php:21
+msgid "Palette"
+msgstr "パレット"
+
+#: ../../../blocks/autonav/templates/palette_bread_crumbs/view.php:32
+#: ../../../blocks/autonav/templates/palette_global_nav_animenu/view.php:149
+#: ../../../blocks/autonav/templates/palette_side_nav/view.php:134
+#: ../../../blocks/autonav/templates/palette_side_nav_title/view.php:141
+#: ../../../blocks/autonav/templates/palette_side_product_nav/view.php:141
+#: ../../../blocks/autonav/templates/palette_sub_nav/view.php:129
+msgid "Empty Auto-Nav Block."
+msgstr "空のオートナビブロックです。"
+
+#: ../../../blocks/faq/templates/palette_faq/view.php:19
+msgid "No Faq Entries Entered."
+msgstr "FAQ のエントリーが入力されていません。"
+
+#: ../../../blocks/file/templates/button_style/view.php:20
+msgid "Empty File Block."
+msgstr "空のファイルのブロック。"
+
+#: ../../../blocks/form/templates/palette_form/view.php:91
+#: ../../../blocks/palette_heading_option/form.php:5
+#: ../../../blocks/palette_heading_option/form.php:22
+#: ../../../blocks/palette_heading_option/form.php:28
+#: ../../../blocks/palette_heading_option/form.php:43
+#: ../../../blocks/palette_heading_option/form.php:56
+#: ../../../blocks/palette_horizontal_rule/form.php:5
+#: ../../../blocks/palette_horizontal_rule/form.php:16
+msgid "Required"
+msgstr "必須"
+
+#: ../../../blocks/google_map/templates/palette_map/view.php:6
+msgid "Google Map disabled in edit mode."
+msgstr "Googleマップは、編集モードでは表示されません。"
+
+#: ../../../blocks/image/templates/add_title/view.php:40
+msgid "Empty Image Block."
+msgstr "空の画像のブロック。"
+
+#: ../../../blocks/image_slider/templates/slick_carousel/view.php:6
+#: ../../../blocks/image_slider/templates/slick_carousel_simplelightbox/view.php:6
+#: ../../../blocks/image_slider/templates/slick_fade/view.php:6
+#: ../../../blocks/image_slider/templates/slick_slide/view.php:6
+msgid "Image Slider disabled in edit mode."
+msgstr "画像スライダー編集モードでは表示されません。"
+
+#: ../../../blocks/image_slider/templates/slick_carousel/view.php:79
+#: ../../../blocks/image_slider/templates/slick_carousel_simplelightbox/view.php:88
+#: ../../../blocks/image_slider/templates/slick_fade/view.php:64
+#: ../../../blocks/image_slider/templates/slick_slide/view.php:66
+msgid "No Slides Entered."
+msgstr "スライドがありません。"
+
+#: ../../../blocks/page_list/templates/announcement/view.php:15
+#: ../../../blocks/page_list/templates/announcement_horizontal_white/view.php:15
+#: ../../../blocks/page_list/templates/announcement_sidebar/view.php:9
+#: ../../../blocks/page_list/templates/announcement_topic/view.php:16
+#: ../../../blocks/page_list/templates/product_item_list/view.php:9
+#: ../../../blocks/page_list/templates/product_item_list_full/view.php:9
+#: ../../../blocks/page_list/templates/product_item_list_full_simplelightbox/view.php:9
+#: ../../../blocks/page_list/templates/product_item_list_simplelightbox/view.php:9
+#: ../../../blocks/page_list/templates/recommended_item_list/view.php:9
+#: ../../../blocks/page_list/templates/recommended_item_list_full/view.php:9
+#: ../../../blocks/page_list/templates/recommended_item_list_full_simplelightbox/view.php:9
+#: ../../../blocks/page_list/templates/recommended_item_list_simplelightbox/view.php:9
+msgid "Empty Page List Block."
+msgstr "空のページリストブロックです。"
+
+#: ../../../blocks/page_list/templates/announcement/view.php:66
+#: ../../../blocks/page_list/templates/announcement_horizontal_white/view.php:59
+#: ../../../blocks/page_list/templates/announcement_sidebar/view.php:60
+#: ../../../blocks/page_list/templates/announcement_topic/view.php:61
+msgid "F d, Y"
+msgstr "Y年n月j日"
+
+#: ../../../blocks/page_list/templates/announcement/view.php:129
+#: ../../../blocks/page_list/templates/announcement_horizontal_white/view.php:100
+#: ../../../blocks/page_list/templates/announcement_topic/view.php:141
+msgid "No announcements to this news."
+msgstr "このニュースにお知らせはありません。"
+
+#: ../../../blocks/palette_heading_option/controller.php:32
+msgid "Displays a heading with style options."
+msgstr "スタイルのオプションで見出しを表示します。"
+
+#: ../../../blocks/palette_heading_option/controller.php:37
+msgid "Palette Heading Option"
+msgstr "パレット・見出しオプション"
+
+#: ../../../blocks/palette_heading_option/controller.php:77
+#: ../../../blocks/palette_heading_option/controller.php:80
+#: ../../../blocks/palette_heading_option/controller.php:93
+#, php-format
+msgid "The %s field is required."
+msgstr "%sフィールドは必須です。"
+
+#: ../../../blocks/palette_heading_option/controller.php:84
+#: ../../../blocks/palette_heading_option/controller.php:89
+#: ../../../blocks/palette_horizontal_rule/controller.php:52
+#: ../../../blocks/palette_horizontal_rule/controller.php:57
+#, php-format
+msgid "The %s field has an invalid value."
+msgstr "%s フィールドには、無効な値があります。"
+
+#: ../../../blocks/palette_heading_option/form.php:4
+msgid "Heading Text"
+msgstr "見出しのテキスト"
+
+#: ../../../blocks/palette_heading_option/form.php:21
+msgid "Heading Image"
+msgstr "見出し画像"
+
+#: ../../../blocks/palette_heading_option/form.php:23
+msgid "Choose File"
+msgstr "ファイルを選択してください。"
+
+#: ../../../blocks/palette_heading_option/form.php:27
+msgid "Formatting"
+msgstr "フォーマット"
+
+#: ../../../blocks/palette_heading_option/form.php:42
+msgid "Style Option"
+msgstr "スタイルオプション"
+
+#: ../../../blocks/palette_heading_option/form.php:55
+msgid "Heading Description"
+msgstr "見出しの説明"
+
+#: ../../../blocks/palette_horizontal_rule/controller.php:29
+msgid "Displays the Horizontal Rule with style options."
+msgstr "スタイルのオプションで水平線を表示します。"
+
+#: ../../../blocks/palette_horizontal_rule/controller.php:34
+msgid "Palette Horizontal Rule"
+msgstr "パレット・カスタム水平線"
+
+#: ../../../blocks/palette_horizontal_rule/form.php:4
+msgid "Select colors"
+msgstr "色を選択してください。"
+
+#: ../../../blocks/palette_horizontal_rule/form.php:15
+msgid "Select width"
+msgstr "幅を選択してください。"
+
+#: ../../../blocks/search/templates/palette_search/view.php:29
+msgid "There were no results found. Please try another keyword or phrase."
+msgstr ""
+"検索語句に一致するページは見つかりませんでした。他のキーワードを入力してみて"
+"ください。"
+
+#: ../../../blocks/topic_list/templates/palette_flat_filter/view.php:52
+msgid "No topics."
+msgstr "トピックスがありません。"
+
+#: ../../../elements/dashboard/install.php:4
+msgid ""
+"<strong>Attention!</strong> Clearing your site's content prior to installing "
+"this theme is highly recommended."
+msgstr ""
+"<strong>注意!</strong>このテーマをインストールする前に、サイトのコンテンツを"
+"クリアすることをお勧めします。"
+
+#: ../../../themes/palette/page_forbidden.php:12
+msgid "403 Error"
+msgstr "403エラー"
+
+#: ../../../themes/palette/page_forbidden.php:13
+msgid "You are not allowed to access this page."
+msgstr "このページへのアクセス権がありません。"
+
+#: ../../../themes/palette/page_not_found.php:12
+msgid "404 Error"
+msgstr "404エラー"
+
+#: ../../../themes/palette/page_not_found.php:14
+msgid "Page not found, so please search."
+msgstr "ページが見つかりません、検索してみてください。"
+
+#: ../../../themes/palette/page_not_found.php:17
+#: ../../../themes/palette/page_not_found.php:18
+msgid "Search"
+msgstr "検索"
+
+#: ../../../themes/palette/page_theme.php:25
+msgid ""
+"Simple and Cute, Shop&#39;s theme with Theme Customizer. support for "
+"products, blogs (announcement), layouts and more."
+msgstr ""
+"商品アイテム、ブログ（新着情報）、テーマカスタマイザー、レイアウトなどをサ"
+"ポートした、シンプルでキュートなテーマ。"
+
+#: ../../../themes/palette/page_theme.php:127
+msgid "Heading Colored Wide"
+msgstr "見出しの色付きワイド背景"
+
+#: ../../../themes/palette/page_theme.php:132
+msgid "Title Thin"
+msgstr "細いタイトル"
+
+#: ../../../themes/palette/page_theme.php:138
+msgid "Title Caps"
+msgstr "大文字タイトル"
+
+#: ../../../themes/palette/page_theme.php:144
+msgid "Title Caps Bold"
+msgstr "大文字タイトル太字"
+
+#: ../../../themes/palette/page_theme.php:150
+msgid "Title Line"
+msgstr "タイトルアンダーライン"
+
+#: ../../../themes/palette/page_theme.php:156
+msgid "Title Crosshead"
+msgstr "タイトル縦罫線"
+
+#: ../../../themes/palette/page_theme.php:162
+msgid "Title Subhead"
+msgstr "タイトル点線"
+
+#: ../../../themes/palette/page_theme.php:168
+msgid "Title Serif"
+msgstr "タイトルセリフ文字"
+
+#: ../../../themes/palette/page_theme.php:174
+msgid "Palette Logo Type"
+msgstr "パレットのロゴフォント"
+
+#: ../../../themes/palette/page_theme.php:179
+msgid "Standard Button"
+msgstr "標準ボタン"
+
+#: ../../../themes/palette/page_theme.php:180
+msgid "Success Button"
+msgstr "OKボタン"
+
+#: ../../../themes/palette/page_theme.php:181
+msgid "Primary Button"
+msgstr "重要なボタン"
+
+#: ../../../themes/palette/page_theme.php:182
+msgid "Large Button"
+msgstr "ラージボタン"
+
+#: ../../../themes/palette/inc/footer.php:40
+msgid "Back to Top"
+msgstr "ページの先頭へ"
+
+#: ../../../themes/palette/inc/header.php:29
+#: ../../../themes/palette/inc/header_home.php:29
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+
+#: ../../../themes/palette/inc/header.php:31
+#: ../../../themes/palette/inc/header_home.php:31
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#~ msgid "Form Captcha"
+#~ msgstr "フォームのキャプチャ"
+
+#~ msgid "html"
+#~ msgstr "html"
+
+#~ msgid "[data-match-height], [data-mh]"
+#~ msgstr "[data-match-height], [data-mh]"
+
+#~ msgid "Set an anchor point to jump to specific point on this page."
+#~ msgstr ""
+#~ "このページの特定のポイントにジャンプするためのアンカー ポイントを設定しま"
+#~ "す。"
+
+#~ msgid "Link anchor point"
+#~ msgstr "リンクアンカーポイント"
+
+#~ msgid "This is an anchor point (ID: anchor-%s)"
+#~ msgstr "これはアンカー ポイントです。 (ID: anchor-%s)"
+
+#~ msgid "Add a description list."
+#~ msgstr "記述リストを追加します。"
+
+#~ msgid "Description List"
+#~ msgstr "記述リスト"
+
+#~ msgid "Term"
+#~ msgstr "ターム"
+
+#~ msgid "Description"
+#~ msgstr "説明"
+
+#~ msgid "Last Item"
+#~ msgstr "最後の項目"
+
+#~ msgid "Is this a last item of description list group?"
+#~ msgstr "これは記述リストグループの最後の項目ですか?"
+
+#~ msgid "No"
+#~ msgstr "いいえ"
+
+#~ msgid "Yes"
+#~ msgstr "はい"
+
+#~ msgid "Advanced Heading"
+#~ msgstr "詳細な見出し"
+
+#~ msgid "-- None --"
+#~ msgstr "-- なし --"
+
+#~ msgid "H1"
+#~ msgstr "H1"
+
+#~ msgid "H2"
+#~ msgstr "H2"
+
+#~ msgid "H3"
+#~ msgstr "H3"
+
+#~ msgid "H4"
+#~ msgstr "H4"
+
+#~ msgid "H5"
+#~ msgstr "H5"
+
+#~ msgid "H6"
+#~ msgstr "H6"
+
+#~ msgid "Left Border"
+#~ msgstr "縦罫線"
+
+#~ msgid "Double Lines"
+#~ msgstr "ダブルライン"
+
+#~ msgid "Under Line"
+#~ msgstr "アンダーライン"
+
+#~ msgid "Dotted Under Line"
+#~ msgstr "ドット・アンダーライン"
+
+#~ msgid "All"
+#~ msgstr "すべて"
+
+#~ msgid "A simple style business theme based on the Bootstrap framework."
+#~ msgstr "ブートストラップを使用したシンプルなビジネステーマ。"
+
+#~ msgid "Stucco"
+#~ msgstr "Stucco"
+
+#~ msgid ""
+#~ "Built with <a href=\"http://www.concrete5.org\" class="
+#~ "\"concrete5\">concrete5</a> CMS."
+#~ msgstr ""
+#~ "Built with <a href=\"http://www.concrete5.org\" class="
+#~ "\"concrete5\">concrete5</a> CMS."
+
+#~ msgid "Log in"
+#~ msgstr "ログイン"
+
+#~ msgid "Log out"
+#~ msgstr "ログアウト"
+
+#~ msgid "Title Bold"
+#~ msgstr "タイトル 太字"
+
+#~ msgid "Headline"
+#~ msgstr "大見出し"
+
+#~ msgid "Subhead"
+#~ msgstr "小見出し"
+
+#~ msgid "Image Caption"
+#~ msgstr "画像キャプション"
+
+#~ msgid "Link Mark"
+#~ msgstr "リンクマーク"
+
+#~ msgid "This is an ahchor point (ID: anchor-%s)"
+#~ msgstr "これはアンカー ポイントです (ID: anchor-%s)"
+
+#~ msgid "Double Line"
+#~ msgstr "ダブルライン"
+
+#~ msgid "Defenition List"
+#~ msgstr "定義リスト"

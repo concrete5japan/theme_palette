@@ -1,0 +1,215 @@
+div.ccm-pagination-wrapper {
+	margin: 50px 0 0;
+	text-align: center;
+
+
+	.pagination {
+		margin: 0 auto;
+
+		> li {
+			display: inline-block;
+			margin: 0;
+			color: @button-default-color;
+			font-size: .9em;
+			font-size: .9rem;
+	    	&.active {
+				span {
+					padding: 6px 10px;
+					color: @button-text-color;
+					border: solid 1px @button-default-color;
+					background: @button-default-color;
+					&:hover {
+
+					}
+				}
+			}
+			&.next {
+				font-size: .9em;
+				font-size: .9rem;
+				&.disabled {
+					a,
+					span {
+						color: lighten(@body-text-sub-color, 20%);
+						&:hover,
+						&:focus {
+							color: lighten(@body-text-sub-color, 20%);
+							border: solid 1px @main-background-sub-color;
+							border-left: solid 1px @body-text-sub-color;
+							background: none;
+							&:after {
+								background-color: @main-background-color;
+							}
+						}
+						&:focus {
+							outline-offset: -3px;
+						}
+					}
+				}
+
+				a,
+				span {
+					padding: 6px 10px 6px 14px;
+					color: @body-text-sub-color;
+					border: solid 1px @main-background-sub-color;
+					&:hover,
+					&:focus {
+						color: @body-text-white-color;
+						border: solid 1px @main-theme-color;
+						background-color: @main-theme-color;
+						&:after {
+							background-color: @main-theme-color;
+						}
+					}
+					&:focus {
+						outline-offset: -3px;
+					}
+					&:after {
+						width: 1em;
+						font-family: "FontAwesome", sans-serif;
+						font-size: 1.4em;
+						font-size: 1.4rem;
+						font-style: normal;
+						font-weight: normal;
+						font-variant: normal;
+						line-height: 1;
+						speak: none;
+						background-color: @main-background-color;
+						content: "\f105";
+						position: absolute;
+						top: .22em;
+						right: .2em;
+					}
+				}
+
+			}
+			&.prev {
+				font-size: .9em;
+				font-size: .9rem;
+				&.disabled {
+					a,
+					span {
+						color: lighten(@body-text-sub-color, 20%);
+						&:hover,
+						&:focus {
+							color: lighten(@body-text-sub-color, 20%);
+							border: solid 1px @main-background-sub-color;
+							border-right: solid 1px @body-text-sub-color;
+							background: none;
+							&:before {
+								background-color: @main-background-color;
+							}
+						}
+						&:focus {
+							outline-offset: -3px;
+						}
+					}
+				}
+
+				a,
+				span {
+					padding: 6px 14px 6px 10px;
+					color: @body-text-sub-color;
+					border: solid 1px @main-background-sub-color;
+					&:hover,
+					&:focus {
+						color: @body-text-white-color;
+						border: solid 1px @main-theme-color;
+						background-color: @main-theme-color;
+						&:before {
+							background-color: @main-theme-color;
+						}
+					}
+					&:focus {
+						outline-offset: -3px;
+					}
+					&:before {
+						width: 1em;
+						font-family: "FontAwesome", sans-serif;
+						font-size: 1.4em;
+						font-size: 1.4rem;
+						font-style: normal;
+						font-weight: normal;
+						font-variant: normal;
+						line-height: 1;
+						speak: none;
+						background-color: @main-background-color;
+						content: "\f104";
+						position: absolute;
+						top: .22em;
+						left: .2em;
+					}
+				}
+			}
+			> a {
+				padding: 6px 10px;
+				color: @body-text-sub-color;
+				border: solid 1px @main-background-sub-color;
+				border-radius: 0;
+				background: none;
+				&:hover,
+				&:focus {
+					color: @body-text-white-color;
+					border: solid 1px @main-theme-color;
+					background-color: @main-theme-color;
+				}
+				&:focus {
+					outline-offset: -3px;
+				}
+			}
+			> span {
+				color: @body-text-sub-color;
+				border-left: 0;
+				border-right: 0;
+				border: none;
+				border-radius: 0;
+				background: none;
+			}
+		}
+	}
+
+	.pl-pagination {
+		&.pagination {
+
+			> li {
+
+				&.next {
+					a,
+					span {
+						padding-right: 24px;
+						&:hover,
+						&:focus {
+							&:after {
+								background: none;
+							}
+						}
+						&:after {
+							background: none;
+							position: absolute;
+							top: .22em;
+							right: 4px;
+						}
+					}
+
+				}
+				&.prev {
+					a,
+					span {
+						padding-left: 24px;
+						&:hover,
+						&:focus {
+							&:before {
+								background: none;
+							}
+						}
+						&:before {
+							background: none;
+							position: absolute;
+							top: .22em;
+							left: 4px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+
+.ccm-express-form {
+
+	.ccm-express-form-field-set {
+		a {
+			padding-left: 1px;
+			color: @body-link-color;
+			&:hover {
+				color: @body-link-hover-color;
+				text-decoration: none;
+			}
+			&:before {
+				padding-right: 5px;
+				font-family: "FontAwesome", sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				content: "\f105";
+			}
+		}
+
+		legend {
+			margin: 0 0 15px;
+			padding-left: 20px;
+		    color: @page-title-type-color;
+		    font-size: @page-title-type-font-size * 0.8;
+			font-family: @page-title-type-font-family;
+			text-transform: none;
+			position: relative;
+
+			&:before {
+			    width: 10px;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				background: -webkit-gradient(linear, left top, right bottom, from(@main-theme-color), color-stop(0.25, @main-theme-color), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, @main-theme-color), color-stop(0.75, @main-theme-color), color-stop(0.75, transparent), to(transparent));
+				background: -moz-linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background: linear-gradient(-45deg, @main-theme-color 25%, transparent 25%, transparent 50%, @main-theme-color 50%, @main-theme-color 75%, transparent 75%, transparent);
+				background-size: 4px 4px;
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			&:after {
+				width: auto;
+				height: auto;
+				margin: 0;
+				padding: 0;
+				background: none;
+			}
+		}
+
+		@media (min-width: 768px) {
+			legend {
+				font-size: @page-title-type-font-size;
+			}
+		}
+
+		.form-group {
+			div {
+				font-size: .9em;
+				font-size: .9rem;
+
+				.control-label {
+					margin-bottom: 0;
+					color: @body-type-color;
+					font-size: 1em;
+					font-size: 1rem;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+}

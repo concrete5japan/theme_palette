@@ -1,0 +1,216 @@
+@preset-name: "Blueberry HC";
+@preset-icon: concrete-icon(#c9c6e6, #879be7, #46445c);
+
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600');
+@import url('//fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url('//fonts.googleapis.com/css?family=Cinzel:400,700,900');
+@import url('//fonts.googleapis.com/css?family=Marcellus');
+@import url('//fonts.googleapis.com/css?family=Marcellus+SC');
+@import url('//fonts.googleapis.com/css?family=Federo');
+
+
+/*
+ * The sections in this document roughly correspond to our theme style guide.
+ */
+
+
+// Global body background
+@page-background-color: #46445c; // Footer background color
+
+// Header - Color
+@header-background-color: rgba(255, 255, 255, 1);
+@header-background-transparent-color: rgba(255, 255, 255, 0.8);
+@header-offset-size: 100px;
+//@header-image-offset-size: -100px;
+@header-background-image: 'build/img/header_pattern_blueberry.png';
+
+// Main - Color
+@main-background-color: #f5f5f5;
+@main-background-sub-color: #d2cfcd;
+@main-theme-color: #6174b3;
+@main-base-color: #fff;
+@main-border-color: #d2cfcd;
+
+// Typography
+@body-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@body-type-color: #454554;
+@body-type-font-size: 16px;
+@body-type-font-weight: 400;
+@body-text-sub-color: #46445c;
+@body-text-white-color: #fff;
+@body-text-shadow-color: #fff;
+
+// Links
+@body-link-color: #d36800;
+@body-link-hover-color: #399dac;
+
+// Top Header - Website Title
+@header-background-color: #fff;
+@header-site-title-type-color: #545261;
+@header-site-title-type-font-weight: 400;
+@header-site-title-type-font-size: 2em;
+@header-site-title-type-text-transform: none;
+@header-site-title-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+
+// Top Header - Main Navigation */
+@header-navigation-type-color: #545261;
+@header-navigation-type-font-size: 1.0em;
+@header-navigation-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@header-navigation-hover-color: #399dac;
+@header-navigation-menu-background-color: #fff;
+@header-navigation-menu-border-color: #46445c;
+@header-navigation-menu-text-color: #46445c;
+@header-navigation-menu-text-hover-color: #399dac;
+@header-navigation-menu-margin-top-size: 40px;
+
+// Search
+@search-input-background-color: #fff;
+@search-input-border-color: #6174b3;
+@search-button-color: #ffb80e;
+@search-button-icon-color: #fff;
+
+// Button
+@button-text-color: #fff;
+@button-default-color: #46445c;
+@button-primary-color: #ffb80e;
+@button-success-color: #4faed5;
+@button-large-text-color: #46445c;
+@button-large-background-color: #fff;
+
+// Footer
+@footer-text-color: #d2cfcd;
+@footer-name-color: #fff;
+@footer-social-icon-color: #d2cfcd;
+@footer-social-icon-hover-color: #fff;
+@footer-effect-social-icon-color: #46445c;
+@footer-link-color: #d2cfcd;
+@footer-link-hover-color: #fff;
+@footer-mobile-button-link-color: #46445c;
+@footer-mobile-button-background-color: rgba(255, 255 ,255 , .6);
+@footer-mobile-button-background-hover-color: rgba(255, 255 ,255 , .85);
+
+// Page Top Button
+@pagetop-button-color: #6174b3;
+@pagetop-button-icon-color: #fff;
+
+// Headings
+@headings-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+
+@h1-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h1-type-color: #46445c;
+@h1-type-font-size: 2.25em;
+@h1-type-font-weight: 400;
+
+@h2-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h2-type-color: #46445c;
+@h2-type-font-size: 1.875em;
+@h2-type-font-weight: 400;
+
+@h3-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h3-type-color: #46445c;
+@h3-type-font-size: 1.5em;
+@h3-type-font-weight: 400;
+
+@h4-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h4-type-color: #454554;
+@h4-type-font-size: 1.125em;
+@h4-type-font-weight: 400;
+
+@h5-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h5-type-color: #454554;
+@h5-type-font-size: 1em;
+@h5-type-font-weight: 400;
+
+@h6-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@h6-type-color: #454554;
+@h6-type-font-size: .9em;
+@h6-type-font-weight: 400;
+
+@heading-line-font-size: 1.1em;
+
+// Page title block
+@page-title-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@page-title-type-color: #46445c;
+@page-title-type-font-size: 1.6em;
+@page-title-type-font-weight: 700;
+@page-title-type-text-transform: uppercase;
+
+// Blockquote
+@blockquote-left-padding-size: 60px;
+@blockquote-type-font-size: 1em;
+@blockquote-type-font-weight: 300;
+@blockquote-type-color: #46445c;
+@blockquote-border-color: #46445c;
+
+// Global Navigation */
+@global-navigation-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@global-navigation-type-font-size: 1em;
+@global-navigation-type-font-weight: 400;
+@global-navigation-background-color: #6174b3;
+@global-navigation-border-color: #fff;
+@global-navigation-background-link-color: #6174b3;
+@global-navigation-text-link-color: #fff;
+@global-navigation-child-background-color: #fff;
+@global-navigation-child-link-color: #46445c;
+@global-navigation-child-link-hover-color: #399dac;
+@global-navigation-child-link-selected-color: #454554;
+@global-navigation-toggle-background-color: #6174b3;
+@global-navigation-toggle-icon-color: #fff;
+@global-navigation-circle-left-color: #ffb80e;
+@global-navigation-circle-center-color: #afabcc;
+@global-navigation-circle-right-color: #6174b3;
+
+// Image slider
+@image-slider-title-type-font-size: 2.0em;
+@image-slider-title-type-font-weight: 200;
+@image-slider-title-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@image-slider-paragraph-type-font-size: 1em;
+@image-slider-paragraph-type-font-weight: 400;
+@image-slider-paragraph-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@image-slider-carousel-title-type-font-size: 1em;
+@image-slider-carousel-title-type-font-weight: 700;
+@image-slider-carousel-title-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@image-slider-carousel-paragraph-type-font-size: .9em;
+@image-slider-carousel-paragraph-type-font-weight: 400;
+@image-slider-carousel-paragraph-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+
+// Miscellaneous
+@accent-background-color: #d7d5dd;
+@accent-white-background-color: #fff;
+@accent-title-type-font-size: 1.7em;
+@accent-title-transform: uppercase;
+
+@title-thin-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@title-thin-type-color: #4faed5;
+@title-thin-type-font-size: 2em;
+
+@title-caps-type-font-family: ~"'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@title-caps-type-color: #46445c;
+@title-caps-type-font-size: 1.75em;
+@title-caps-type-text-transform: uppercase;
+
+@title-caps-bold-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@title-caps-bold-type-color: #46445c;
+@title-caps-bold-type-font-size: 1.75em;
+@title-caps-bold-type-text-transform: uppercase;
+
+@title-serif-type-font-family: ~"'Marcellus SC', Georgia, 'Times New Roman', Times, '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif";
+@title-serif-type-color: #454554;
+@title-serif-type-font-size: 2em;
+
+@map-title-type-font-family: ~"'Federo', 'Helvetica Neue', Helvetica, 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif";
+@map-title-type-color: #46445c;
+@map-title-type-font-size: 1.6em;
+@map-title-type-text-transform: uppercase;
+
+@image-title-type-font-family: ~"'Marcellus SC', Georgia, 'Times New Roman', Times, '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif";
+@image-title-type-color: #46445c;
+@image-title-type-font-size: 1.4em;
+
+@social-icon-color: #fff;
+@social-icon-background-color: #46445c;
+
+@carousel-photo-overlay-color: #000;
+
+
+
