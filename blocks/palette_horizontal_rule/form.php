@@ -1,4 +1,8 @@
-<?php  defined("C5_EXECUTE") or die("Access Denied."); ?>
+<?php  defined("C5_EXECUTE") or die("Access Denied.");
+
+$SelectColors = '';
+$SelectWidth = '';
+?>
 
 <div class="form-group">
     <?php  echo $form->label("SelectColors", t("Select colors")); ?>
@@ -8,7 +12,7 @@
         'monochrome' => 'Monochrome',
         'colored' => 'Colored'
     ); ?>
-    <?php  echo $form->select("SelectColors", $options, $SelectColors); ?>
+    <?php echo $form->select("SelectColors", $options, $SelectColors); ?>
 </div>
 
 <div class="form-group">
@@ -19,5 +23,5 @@
         'narrow' => 'Narrow',
         'wide' => 'Wide'
     ); ?>
-    <?php  echo $form->select("SelectWidth", $options, $SelectWidth); ?>
+    <?php echo $form->select("SelectWidth", $options, $SelectWidth); ?>
 </div>

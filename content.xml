@@ -5758,11 +5758,12 @@
 	                  <block type="feature" name="">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[pencil]]></icon>
+	                        <icon><![CDATA[fas fa-pencil-alt]]></icon>
 	                        <title><![CDATA[Easy to Edit]]></title>
 	                        <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
@@ -5771,11 +5772,12 @@
 	                  <block type="feature" name="">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[eye]]></icon>
+	                        <icon><![CDATA[fas fa-eye]]></icon>
 	                        <title><![CDATA[Pixel Perfect]]></title>
 	                        <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
@@ -5784,11 +5786,12 @@
 	                  <block type="feature" name="">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[youtube-play]]></icon>
+	                        <icon><![CDATA[fab fa-youtube]]></icon>
 	                        <title><![CDATA[Media Rich]]></title>
 	                        <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
@@ -5811,11 +5814,12 @@
 	                  <block type="feature" name="" custom-template="hover_description">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[star]]></icon>
+	                        <icon><![CDATA[fas fa-star]]></icon>
 	                        <title><![CDATA[Quality]]></title>
 	                        <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
@@ -5824,11 +5828,12 @@
 	                  <block type="feature" name="" custom-template="hover_description">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[cog]]></icon>
+	                        <icon><![CDATA[fas fa-cog]]></icon>
 	                        <title><![CDATA[Development]]></title>
 	                        <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
@@ -5837,11 +5842,12 @@
 	                  <block type="feature" name="" custom-template="hover_description">
 	                    <data table="btFeature">
 	                      <record>
-	                        <icon><![CDATA[lock]]></icon>
+	                        <icon><![CDATA[fas fa-lock]]></icon>
 	                        <title><![CDATA[Security]]></title>
 	                        <paragraph><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.</p>]]></paragraph>
 	                        <externalLink><![CDATA[]]></externalLink>
 	                        <internalLinkCID><![CDATA[0]]></internalLinkCID>
+							  <titleFormat><![CDATA[h1]]></titleFormat>
 	                      </record>
 	                    </data>
 	                  </block>
