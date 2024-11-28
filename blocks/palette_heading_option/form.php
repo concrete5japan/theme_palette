@@ -1,10 +1,10 @@
 <?php  defined("C5_EXECUTE") or die("Access Denied.");
-$HeadingText = '';
-$HeadingImage = '';
-$HeadingImage_o = '';
-$HeadingDescription = '';
-$Formatting = '';
-$StyleOption = '';
+$HeadingText = $HeadingText ?? '';
+$HeadingImage = $HeadingImage ?? '';
+$HeadingImage_o = $HeadingImage_o ?? '';
+$HeadingDescription = $HeadingDescription ?? '';
+$Formatting = $Formatting ?? '';
+$StyleOption = $StyleOption ?? '';
 ?>
 
 <div class="form-group">

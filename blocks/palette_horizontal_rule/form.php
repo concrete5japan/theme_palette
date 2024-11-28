@@ -1,7 +1,7 @@
 <?php  defined("C5_EXECUTE") or die("Access Denied.");
 
-$SelectColors = '';
-$SelectWidth = '';
+$SelectColors = $SelectColors ?? '';
+$SelectWidth = $SelectWidth ?? '';
 ?>
 
 <div class="form-group">
