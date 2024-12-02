@@ -141,7 +141,7 @@ if (is_object($f) && $f->getFileID()) {
         }
     }
 
-    $imageTag->addClass('ccm-image-block img-fluid bID-' . $bID);
+    $imageTag->addClass('ccm-image-block img-responsive bID-' . $bID);
 
     if ($altText) {
         $imageTag->alt(h($altText));
