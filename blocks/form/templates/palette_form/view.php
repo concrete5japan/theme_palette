@@ -21,8 +21,8 @@ $qsID = intval($survey->questionSetId);
 $formAction = $view->action('submit_form').'#formblock'.$bID;
 
 $questionsRS = $miniSurvey->loadQuestions($qsID, $bID);
-$questions = array();
-while ($questionRow = $questionsRS->fetchRow()) {
+$questions = [];
+while ($questionRow = $questionsRS->fetch()) {
 	$question = $questionRow;
 	$question['input'] = $miniSurvey->loadInputType($questionRow, false);
 

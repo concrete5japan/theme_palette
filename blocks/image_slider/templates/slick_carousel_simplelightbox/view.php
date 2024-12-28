@@ -60,14 +60,21 @@ $(function() {
 		                ?>
 
 		                <?php if(is_object($f)) {
-		                    $tag = Core::make('html/image', array($f, false))->getTag(); ?>
-		                    <a href="<?php echo $tag->src; ?>">
+                            $tag = Core::make('html/image', ['f' => $f])->getTag();
+                        $tag->setAttribute("width", $f->getAttribute('width'));
+                        $tag->setAttribute("height", $f->getAttribute('height'));
+                            ?>
+                            <?php if ($row['linkURL']) {
+                                ?>
+                                <a href="<?php echo $row['linkURL']; ?>" class="mega-link-overlay"></a>
+                                <?php
+                            } ?>
 
-							<?php if($row['title']) {
-		                    	$tag->alt($row['title']);
-		                    }else{
-		                    	$tag->alt($f->getTitle());
-		                    }
+							<?php if ($row['title']) {
+                                $tag->alt(h($row['title']));
+                            } else {
+                                $tag->alt("slide");
+                            }
 		                    print $tag; ?>
 		                <?php } ?>
 						<?php if($row['title']) { ?>
