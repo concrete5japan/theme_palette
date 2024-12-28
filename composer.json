@@ -1,0 +1,6 @@
+{
+    "name": "concrete5japan/theme_palette",
+    "description": "Palette - A Concrete CMS theme",
+    "type": "concrete5-package",
+    "license": "MIT"
+}
