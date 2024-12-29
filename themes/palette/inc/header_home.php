@@ -22,7 +22,6 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
             'pageMetaKeywords' => isset($pageMetaKeywords) ? $pageMetaKeywords : ''
         ]);
         ?>
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap.css">
