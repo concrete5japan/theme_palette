@@ -1,110 +1,82 @@
 <?php
+
 namespace Concrete\Package\ThemePalette;
 
-//use Concrete\Core\Page\Theme\Theme;
-use Package;
-use BlockType;
-use SinglePage;
-use PageTheme;
-use BlockTypeSet;
-use Loader;
-use FileImporter;
+use Concrete\Core\Block\BlockType\BlockType;
+use Concrete\Core\Block\BlockType\Set as BlockTypeSet;
+use Concrete\Core\Express\Controller\Manager;
+use Concrete\Core\Package\Package;
+use Concrete\Core\Page\Theme\Theme as PageTheme;
+use ThemePalette\Express\Controller\FormController;
+use Doctrine\ORM\EntityManagerInterface;
 
-defined('C5_EXECUTE') or die(_('Access Denied.'));
-
-if (!function_exists('compat_is_version_8')) {
-    function compat_is_version_8() {
-        return interface_exists('\Concrete\Core\Export\ExportableInterface');
-    }
-}
+defined('C5_EXECUTE') or die('Access Denied.');
 
 class Controller extends Package
 {
 
-	protected $pkgHandle = 'theme_palette';
-	protected $appVersionRequired = '5.7.3';
-	protected $pkgVersion = '2.0.7';
-	protected $pkgAllowsFullContentSwap = true;
+    protected $pkgHandle = 'theme_palette';
+    protected $appVersionRequired = '9.0.0';
+    protected $pkgVersion = '3.0.0';
+    protected $pkgAllowsFullContentSwap = true;
 
-	public function getPackageDescription()
-	{
-    	return t("A simple style Shop's theme based on the Bootstrap framework.");
-	}
+    protected $pkgAutoloaderRegistries = [
+        'src' => '\ThemePalette',
+    ];
 
-	public function getPackageName()
-	{
-    	return t('Palette');
-	}
+    public function getPackageDescription()
+    {
+        return t("A simple style Shop's theme based on the Bootstrap framework.");
+    }
 
-	public function install()
-	{
-    	$pkg = parent::install();
-    	BlockTypeSet::add('theme_palette','Palette', $pkg);
+    public function getPackageName()
+    {
+        return t('Palette');
+    }
+
+    public function install()
+    {
+        $pkg = parent::install();
+        BlockTypeSet::add('theme_palette', 'Palette', $pkg);
         BlockType::installBlockTypeFromPackage('palette_heading_option', $pkg);
         BlockType::installBlockTypeFromPackage('palette_horizontal_rule', $pkg);
-		PageTheme::add('palette', $pkg);
+        PageTheme::add('palette', $pkg);
 
-		if ( compat_is_version_8() ) {
-			$em = \ORM::entityManager();
-			$small = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'small']);
+        /** @var EntityManagerInterface $em */
+        $em = $this->app->make(EntityManagerInterface::class);
+        $small = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'small']);
 
-		}
-		else {
-			$small = \Concrete\Core\File\Image\Thumbnail\Type\Type::getByHandle('small');
-		}
-		if (!is_object($small)) {
-			if ( compat_is_version_8() ) {
-			    $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
-			}
-			else {
-			    $type = new \Concrete\Core\File\Image\Thumbnail\Type\Type();
-			}
-			$type->setName('Small');
-			$type->setHandle('small');
-			$type->setWidth(740);
-			$type->save();
-		}
-		if ( compat_is_version_8() ) {
-			$em = \ORM::entityManager();
-			$medium = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'medium']);
+        if (!is_object($small)) {
+            $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
+            $type->setName('Small');
+            $type->setHandle('small');
+            $type->setWidth(740);
+            $type->save();
+        }
+        $medium = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'medium']);
 
-		}
-		else {
-			$medium = \Concrete\Core\File\Image\Thumbnail\Type\Type::getByHandle('medium');
-		}
-		if (!is_object($medium)) {
-			if ( compat_is_version_8() ) {
-			    $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
-			}
-			else {
-			    $type = new \Concrete\Core\File\Image\Thumbnail\Type\Type();
-			}
-			$type->setName('Medium');
-			$type->setHandle('medium');
-			$type->setWidth(940);
-			$type->save();
-		}
-		if ( compat_is_version_8() ) {
-			$em = \ORM::entityManager();
-			$large = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'large']);
+        if (!is_object($medium)) {
+            $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
+            $type->setName('Medium');
+            $type->setHandle('medium');
+            $type->setWidth(940);
+            $type->save();
+        }
+        $large = $em->getRepository('\Concrete\Core\Entity\File\Image\Thumbnail\Type\Type')->findOneBy(['ftTypeHandle' => 'large']);
 
-		}
-		else {
-			$large = \Concrete\Core\File\Image\Thumbnail\Type\Type::getByHandle('large');
-		}
-		if (!is_object($large)) {
-			if ( compat_is_version_8() ) {
-			    $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
-			}
-			else {
-			    $type = new \Concrete\Core\File\Image\Thumbnail\Type\Type();
-			}
-			$type->setName('Large');
-			$type->setHandle('large');
-			$type->setWidth(1140);
-			$type->save();
-		}
-	}
+        if (!is_object($large)) {
+            $type = new \Concrete\Core\Entity\File\Image\Thumbnail\Type\Type();
+            $type->setName('Large');
+            $type->setHandle('large');
+            $type->setWidth(1140);
+            $type->save();
+        }
+    }
 
+    public function on_start()
+    {
+        /** @var Manager $manager */
+        $manager = $this->app->make(Manager::class);
+        $manager->setStandardController(FormController::class);
+    }
 }
-?>
