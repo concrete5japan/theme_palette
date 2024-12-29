@@ -5,7 +5,6 @@ $this->inc('inc/header_home.php');
 
 		<?php
 			$a = new Area('Image Slider');
-			if ($a->getTotalBlocksInArea($c) > 0) {}
 			$a->setBlockWrapperStart('<div class="slider-image">',true);
 			$a->setBlockWrapperEnd('</div>');
 			$a->setBlockLimit(1);

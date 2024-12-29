@@ -68,7 +68,6 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
 			</header>
 			<?php
 			$a = new Area('Header Image');
-			if ($a->getTotalBlocksInArea($c) > 0) {}
 			$a->setBlockWrapperStart('<div class="header-image">',true);
 			$a->setBlockWrapperEnd('</div>');
 			$a->setBlockLimit(1);
