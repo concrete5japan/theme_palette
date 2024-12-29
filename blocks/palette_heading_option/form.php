@@ -1,4 +1,11 @@
-<?php  defined("C5_EXECUTE") or die("Access Denied."); ?>
+<?php  defined("C5_EXECUTE") or die("Access Denied.");
+$HeadingText = $HeadingText ?? '';
+$HeadingImage = $HeadingImage ?? '';
+$HeadingImage_o = $HeadingImage_o ?? '';
+$HeadingDescription = $HeadingDescription ?? '';
+$Formatting = $Formatting ?? '';
+$StyleOption = $StyleOption ?? '';
+?>
 
 <div class="form-group">
     <?php  echo $form->label("HeadingText", t("Heading Text")); ?>

@@ -45,9 +45,9 @@ body.hidden-scroll {
 
 .sl-wrapper .sl-close:before {
 	content: "\f00d";
-	font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free", sans-serif;
 	font-size: 24px;
-	font-weight: normal;
+	font-weight: 900;
 	display: block;
 }
 /* line 36, ../sass/simplelightbox.scss */
@@ -87,9 +87,9 @@ body.hidden-scroll {
 }
 .sl-wrapper .sl-navigation button.sl-next:before {
 	content: "\f105";
-	font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free", sans-serif;
 	font-size: 32px;
-	font-weight: normal;
+	font-weight: 900;
 	display: block;
 }
 /* line 62, ../sass/simplelightbox.scss */
@@ -102,9 +102,9 @@ body.hidden-scroll {
 }
 .sl-wrapper .sl-navigation button.sl-prev:before {
 	content: "\f104";
-	font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free", sans-serif;
 	font-size: 32px;
-	font-weight: normal;
+	font-weight: 900;
 	display: block;
 }
 /* line 68, ../sass/simplelightbox.scss */

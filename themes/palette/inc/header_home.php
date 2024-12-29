@@ -15,8 +15,13 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
 <!--[if gt IE 8]><!--> <html class="no-js" lang="<?php  echo Localization::activeLanguage()?>"> <!--<![endif]-->
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<?php Loader::element('header_required', array('pageTitle' => isset($pageTitle) ? $pageTitle : ''));?>
-
+        <?php
+        View::element('header_required', [
+            'pageTitle' => isset($pageTitle) ? $pageTitle : '',
+            'pageDescription' => isset($pageDescription) ? $pageDescription : '',
+            'pageMetaKeywords' => isset($pageMetaKeywords) ? $pageMetaKeywords : ''
+        ]);
+        ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap.css">
